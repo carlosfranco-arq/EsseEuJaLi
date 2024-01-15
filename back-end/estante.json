@@ -1,0 +1,44 @@
+[
+    {
+        "usuario": "carlos",
+        "genero": "Ficção",
+        "titulo": "A Dança dos Dragões",
+        "concluido": "2023-11-15"
+    },
+    {
+        "usuario": "beltrano456",
+        "genero": "Ficção",
+        "titulo": "O Iluminado",
+        "concluido": "2023-12-20"
+    },
+    {
+        "usuario": "carlos",
+        "genero": "Infantil",
+        "titulo": "O Pequeno Príncipe",
+        "concluido": "2023-11-10"
+    },
+    {
+        "usuario": "carlos",
+        "genero": "Aventura",
+        "titulo": "As Aventuras de Tom Sawyer",
+        "concluido": "2023-12-05"
+    },
+    {
+        "usuario": "beltrano456",
+        "genero": "Ficção",
+        "titulo": "Duna",
+        "concluido": "2023-12-12"
+    },
+    {
+        "usuario": "beltrano456",
+        "genero": "Ficção",
+        "titulo": "Bombas",
+        "concluido": "2023-12-12"
+    },
+    {
+        "usuario": "beltrano456",
+        "genero": "Ficção",
+        "titulo": "Biribas",
+        "concluido": "2023-12-12"
+    }
+]

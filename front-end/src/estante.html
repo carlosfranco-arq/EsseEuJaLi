@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estante.css">
+    <title>Estante de Livros</title>
+</head>
+<body>
+    <nav class="menu-horizontal">
+        <ul>
+            <p>
+                <a href="index.html"> Esse eu já li </a>
+                <a href="estante.html"> Estante </a>
+                <a href="desempenho.html"> Desempenho </a>
+                <a href="#" onclick="sair()"> Sair </a>
+            </p>
+        </ul>
+    </nav>
+
+    <h1>Estante de Livros</h1>
+    <div id="livrosContainer"></div>
+
+    <script src="script/estante.js"></script>
+
+    <script>
+        function sair() {
+            // Limpar informações do usuário
+            localStorage.removeItem('usuarioNome');
+            localStorage.removeItem('usuarioAtual');
+
+            // Redirecionar para a página de login (substitua 'login.html' pela sua página de login)
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
