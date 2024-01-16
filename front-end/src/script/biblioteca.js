@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const rowLivro = document.createElement('tr');
             rowLivro.innerHTML = `
                 <td>${livroBiblioteca.genero}</td>
-                <td>${livroBiblioteca.titulo}</td>
+                <td>${criarLinkLivro(livroBiblioteca)}</td>
                 <td>${estaNaEstante ? (estaNaEstante.data ? formatarData(estaNaEstante.data) : '') : criarBotaoConcluir(livroBiblioteca)}</td>
             `;
             tbody.appendChild(rowLivro);
@@ -65,6 +65,14 @@ function criarBotaoConcluir(livroBiblioteca) {
     botao.textContent = 'Concluir Leitura';
     botao.addEventListener('click', () => concluirLeitura(livroBiblioteca));
     return botao.outerHTML;
+}
+
+function criarLinkLivro(livroBiblioteca) {
+    const link = document.createElement('a');
+    link.href = '/back-end/livros/livro.pdf';
+    link.target = '_blank';
+    link.textContent = livroBiblioteca.titulo;
+    return link.outerHTML;
 }
 
 async function concluirLeitura(livroBiblioteca) {

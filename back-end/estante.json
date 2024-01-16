@@ -3,42 +3,49 @@
         "usuario": "carlos",
         "genero": "Ficção",
         "titulo": "A Dança dos Dragões",
-        "concluido": "2023-11-15"
+        "concluido": "2023-11-15",
+        "paginas": "120"
     },
     {
         "usuario": "beltrano456",
         "genero": "Ficção",
         "titulo": "O Iluminado",
-        "concluido": "2023-12-20"
+        "concluido": "2023-12-20",
+        "paginas": "190"
     },
     {
         "usuario": "carlos",
         "genero": "Infantil",
         "titulo": "O Pequeno Príncipe",
-        "concluido": "2023-11-10"
+        "concluido": "2023-11-10",
+        "paginas": "220"
     },
     {
         "usuario": "carlos",
         "genero": "Aventura",
         "titulo": "As Aventuras de Tom Sawyer",
-        "concluido": "2023-12-05"
+        "concluido": "2023-12-05",
+        "paginas": "350"
     },
     {
         "usuario": "beltrano456",
         "genero": "Ficção",
         "titulo": "Duna",
-        "concluido": "2023-12-12"
+        "concluido": "2023-12-12",
+        "paginas": "390"
     },
     {
         "usuario": "beltrano456",
         "genero": "Ficção",
         "titulo": "Bombas",
-        "concluido": "2023-12-12"
+        "concluido": "2023-12-12",
+        "paginas": "400"
     },
     {
         "usuario": "beltrano456",
         "genero": "Ficção",
         "titulo": "Biribas",
-        "concluido": "2023-12-12"
+        "concluido": "2023-12-12",
+        "paginas": "60"
     }
 ]
